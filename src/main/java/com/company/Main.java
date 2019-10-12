@@ -19,29 +19,7 @@ public class Main {
         return;
     }
 
-    public class Animal
-    {
-        int age;
-    }
 
-    public class Dog extends Animal {
-        String Sound;
-    }
-    
-    public interface IPlayer{
-        int age = 0;
-    }
-
-    public class Skater implements IPlayer
-    {
-        int speed = 0;
-    }
-
-    public class Goalie implements IPlayer
-    {
-
-    }
-    
 
 
 
@@ -50,7 +28,7 @@ public class Main {
 
         Recursive(5);
 
-        System.exit(0);
+        //System.exit(0);
 
 
         Person person1 = new Person(3, "Adam", 14);
@@ -122,6 +100,8 @@ public class Main {
         var b34 = hmp.get(34);
         System.out.println(b34);
 
+        String tillagg = "Tillägg i sidobranch.";
+        System.out.println(tillagg);
 
 
 
