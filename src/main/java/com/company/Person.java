@@ -18,4 +18,9 @@ public class Person {
         s = Number + " " + Name + " " + Age;
         return s;
     }
+
+    public void DoNothing()
+    {
+        return;
+    }
 }
